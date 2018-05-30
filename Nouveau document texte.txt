@@ -5,6 +5,4 @@ test github
 modifications vue sur le desk puis surle gituhb
 
 ajout d'une branche cool feature
-
-
 petit commit
