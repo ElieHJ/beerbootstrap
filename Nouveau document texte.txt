@@ -4,4 +4,5 @@ test github
 
 modifications vue sur le desk puis surle gituhb
 
-ajout une autre cool feature
+ajout d'une branche cool feature
+
