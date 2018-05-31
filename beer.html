@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>beer</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1 class="display-4">Un petit coup a boire</h1>
+  <p class="lead">Saisissez un nom de biere </p>
+  <hr class="my-4">
+<!-- </div> -->
+
+	<form class="form-inline" id="formulaire" name="beer_form" method="post" action="#">
+  	<div class="form-group">
+		<!-- <label for="nameBeer">Beer : </label> -->
+		<input id="nameBeer" class="form-control mb-2 mr-sm-2" type="text" name="name_beer" placeholder="name">
+		<span id= "errname"></span>
+	</div>
+	<div class="form-group">
+		<!-- <label for="comment">Comment : </label> -->
+		<input class="form-control mb-2 mr-sm-2" id="comment" type="text" name="comment" placeholder="comment">
+		<span id= "errname"></span>
+	</div>
+	<div class="form-group">	
+		<!-- <label for ="rate">Rate : </label> -->
+		<select  class="custom-select mb-2 mr-sm-2" id="rate">
+		<option value="1">Good</option>
+		<option value="2">Medium</option>
+		<option value="3">Bad</option>
+		</select>
+	</div>
+<!-- 
+	<input type="submit" class="stock btn btn-primary  mb-2 send" name="send" value="stocker">	 -->
+	<button type="submit" class="stock btn btn-primary  mb-2 send" name="send" value="stocker">stocker</button>
+</form>
+</div>
+<!-- <hr>
+ -->
+<div class="container-fluid">
+<div id="beer" class="row" >
+	<!-- <ul></ul> -->
+</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
