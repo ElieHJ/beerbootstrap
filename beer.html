@@ -21,39 +21,32 @@
   <h1 class="display-4">Un petit coup a boire</h1>
   <p class="lead">Saisissez un nom de biere </p>
   <hr class="my-4">
-<!-- </div> -->
 
 	<form class="form-inline" id="formulaire" name="beer_form" method="post" action="#">
-  	<div class="form-group">
-		<!-- <label for="nameBeer">Beer : </label> -->
-		<input id="nameBeer" class="form-control mb-2 mr-sm-2" type="text" name="name_beer" placeholder="name">
-		<span id= "errname"></span>
-	</div>
-	<div class="form-group">
-		<!-- <label for="comment">Comment : </label> -->
-		<input class="form-control mb-2 mr-sm-2" id="comment" type="text" name="comment" placeholder="comment">
-		<span id= "errname"></span>
-	</div>
-	<div class="form-group">	
-		<!-- <label for ="rate">Rate : </label> -->
-		<select  class="custom-select mb-2 mr-sm-2" id="rate">
-		<option value="1">Good</option>
-		<option value="2">Medium</option>
-		<option value="3">Bad</option>
-		</select>
-	</div>
-<!-- 
-	<input type="submit" class="stock btn btn-primary  mb-2 send" name="send" value="stocker">	 -->
-	<button type="submit" class="stock btn btn-primary  mb-2 send" name="send" value="stocker">stocker</button>
-</form>
+	  	<div class="form-group">
+			<input id="nameBeer" class="form-control mb-2 mr-sm-2" type="text" name="name_beer" placeholder="name">
+			<span id= "errname"></span>
+		</div>
+		<div class="form-group">
+			<input class="form-control mb-2 mr-sm-2" id="comment" type="text" name="comment" placeholder="comment">
+			<span id= "errname"></span>
+		</div>
+		<div class="form-group">	
+			<select  class="custom-select mb-2 mr-sm-2" id="rate">
+			<option value="1">Good</option>
+			<option value="2">Medium</option>
+			<option value="3">Bad</option>
+			</select>
+		</div>
+		<button type="submit" class="stock btn btn-primary  mb-2 send" name="send" value="stocker">stocker</button>
+	</form>
 </div>
-<!-- <hr>
- -->
+
 <div class="container-fluid">
-<div id="beer" class="row" >
-	<!-- <ul></ul> -->
+	<div id="beer" class="row" >
+	</div>
 </div>
-</div>
+
 <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
