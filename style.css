@@ -1,5 +1,4 @@
 html {
-    /*background-color: rgb(240, 230, 140);*/
     width: 100%;
 }
 
@@ -11,26 +10,9 @@ img {
     box-shadow: 3px 4px 5px olivedrab;
 }
 
-
-
-title {
-}
-/*.container {background-color: green;}*/
 form {
 	margin-top: 20px; 
     margin-left: 50px;
-}
-
-ul  { display: inline-flex; }
-
-li {text-align: center;
-padding: 5px;
-    margin: 5px;
-border : solid;
-list-style-type: none;}
-
-td {
-	padding : 15px;
 }
 
 label {
@@ -38,12 +20,9 @@ label {
 }
 
 .col-auto {
-text-align: center;
-}
-
-table {
-/*	border: solid;*/
 	text-align: center;
-
 }
-.color {background-color: lightgrey;}
+
+.color {
+	background-color: lightgrey;
+}
